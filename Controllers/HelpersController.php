@@ -2,7 +2,7 @@
 
 require_once '../Models/Voting.php';
 
-// Crear una instancia del controlador y llamar al método para procesar el voto
+// Crea una instancia del controlador y poder llamar al método requerido.
 $controller = new Voting();
 
 // Maneja acciones según la solicitud

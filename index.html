@@ -17,7 +17,7 @@
         <label for="fullname">Nombre y Apellido</label>
       </td>
       <td>
-        <input type="text" name="fullname" id="fullname">
+        <input type="text" name="fullname" id="fullname" oninput="soloLetras(event);">
       </td>
     </tr>
     <tr>
@@ -25,7 +25,7 @@
         <label for="alias">Alias</label>
       </td>
       <td>
-        <input type="text" name="alias" id="alias">
+        <input type="text" name="alias" id="alias" oninput="soloAlfanumerico(event);">
       </td>
     </tr>
     <tr>
@@ -33,7 +33,7 @@
         <label for="rut">Rut</label>
       </td>
       <td>
-        <input type="text" name="rut" id="rut">
+        <input type="text" name="rut" id="rut" oninput="soloRUT(event);" maxlength="10">
       </td>
     </tr>
     <tr>
