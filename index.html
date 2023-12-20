@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Votación</title>
+</head>
+
+<body>
+  <!-- Titulo principal -->
+  <h3>FORMULARIO DE VOTACIÓN:</h3>
+
+  <!-- Tabla con el formulario -->
+  <table>
+    <tr>
+      <td>
+        <label for="fullname">Nombre y Apellido</label>
+      </td>
+      <td>
+        <input type="text" name="fullname" id="fullname">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="alias">Alias</label>
+      </td>
+      <td>
+        <input type="text" name="alias" id="alias">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="rut">Rut</label>
+      </td>
+      <td>
+        <input type="text" name="rut" id="rut">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="email">Email</label>
+      </td>
+      <td>
+        <input type="email" name="email" id="email">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="region">Región</label>
+      </td>
+      <td>
+        <select name="region" id="region" style="width: 100%;"></select>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="comuna">Comuna</label>
+      </td>
+      <td>
+        <select name="comuna" id="comuna" style="width: 100%;"></select>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="candidate">Candidato</label>
+      </td>
+      <td>
+        <select name="candidate" id="candidate" style="width: 100%;"></select>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="candidate">¿Cómo se enteró de nosotros?</label>
+      </td>
+      <td>
+        <input type="checkbox" name="options[]" id="options_web" value="Web">
+        <label for="options_web">Web</label>
+
+        <input type="checkbox" name="options[]" id="options_tv" value="TV">
+        <label for="options_tv">TV</label>
+
+        <input type="checkbox" name="options[]" id="options_redes_sociales" value="Redes sociales">
+        <label for="options_redes_sociales">Redes sociales</label>
+
+        <input type="checkbox" name="options[]" id="options_amigo" value="Amigo">
+        <label for="options_amigo">Amigo</label>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button>
+          Votar
+        </button>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Script necesarios -->
+  <script src="/Assets/js/app.js"></script>
+</body>
+</html>
