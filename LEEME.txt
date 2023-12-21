@@ -4,12 +4,14 @@ Instrucciones para instalar el proyecto.
 
 2. Es necesario tener Docker instalado en el computador o servidor, puedes descargarlo desde: https://www.docker.com/products/docker-desktop/
 
-3. Accede a la carpeta del proyecto y ejecuta los siguientes comandos desde la terminal:
+3. Ingresa en la carpeta docker crea un nuevo archivo llamado entrypoint.sh, copia todo el contenido de entrypoint.sh.example.
+
+4. Accede a la carpeta raiz del proyecto y ejecuta los siguientes comandos desde la terminal:
 
 docker-compose build
 docker-compose up -d
 
-4. Ahora puedes acceder a la aplicación desde http://localhost:8080
+5. Ahora puedes acceder a la aplicación desde http://localhost:8080
 
 PHP Versión: 8.2
 Apache 2.4
