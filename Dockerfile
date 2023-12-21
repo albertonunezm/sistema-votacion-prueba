@@ -6,11 +6,8 @@ RUN apt-get update \
     && apt-get install -y default-mysql-client \
     && rm -rf /var/lib/apt/lists/*
 
-# Instala las extensiones necesarias para MySQL
+# Instala las extensiones necesarias para MySQL 8
 RUN docker-php-ext-install mysqli pdo pdo_mysql
-
-# Instala Apache
-RUN apt-get install -y apache2
 
 # Configura Apache
 RUN a2enmod rewrite

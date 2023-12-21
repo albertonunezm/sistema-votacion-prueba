@@ -10,3 +10,7 @@ docker-compose build
 docker-compose up -d
 
 4. Ahora puedes acceder a la aplicación desde http://localhost:8080
+
+PHP Versión: 8.2
+Apache 2.4
+MySQL: 8
