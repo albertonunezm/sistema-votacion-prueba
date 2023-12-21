@@ -4,7 +4,8 @@ Instrucciones para instalar el proyecto.
 
 2. Es necesario tener Docker instalado en el computador o servidor, puedes descargarlo desde: https://www.docker.com/products/docker-desktop/
 
-3. Ingresa en la carpeta docker crea un nuevo archivo llamado entrypoint.sh, copia todo el contenido de entrypoint.sh.example.
+3. Ingresa en la carpeta docker crea un nuevo archivo llamado entrypoint.sh y copia todo el contenido de entrypoint.sh.example. 
+IMPORTANTE: Debes crear el archivo y colocar el nombre indicado con el contenido, tal como se indica, no sirve copiarlo el archivo de ejemplo y pegarlo.
 
 4. Accede a la carpeta raiz del proyecto y ejecuta los siguientes comandos desde la terminal:
 
