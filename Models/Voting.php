@@ -8,11 +8,11 @@ class Voting
     public function __construct()
     {
         // Variables de conexión a la base de datos
-        $host = 'localhost';
+        $host = 'db';
         $port = 3306;
         $dbname = 'votify_system';
-        $username = 'root';
-        $password = '';
+        $username = 'votify_user';
+        $password = 'votify_password';
 
         // Intenta la conexión a la base de datos
         $this->db = new mysqli($host, $username, $password, $dbname, $port);

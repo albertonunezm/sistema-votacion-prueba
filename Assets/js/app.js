@@ -126,7 +126,14 @@ function processVote(event){
     
     // Valida la region
     if (!data.region.trim() || !data.comuna.trim()) {
-        alert('Selecciona una Región y Comuna.');
+        alert('Selecciona una Región.');
+        event.preventDefault();
+        return;
+    }
+
+    // Valida la comuna
+    if (!data.comuna.trim()) {
+        alert('Selecciona una Comuna.');
         event.preventDefault();
         return;
     }
@@ -169,8 +176,9 @@ function processVote(event){
         } else {
             // Error o RUT ya emitió un voto
             alert(data.message);
-            formularioClear(); // Limpia el formulario
         }
+
+        formularioClear(); // Limpia el formulario
     })
     .catch(error => {
         console.error('Error:', error);

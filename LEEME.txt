@@ -1,0 +1,12 @@
+Instrucciones para instalar el proyecto.
+
+1. Debes clonar el repositorio usando: git clone https://github.com/albertonunezm/sistema-votacion-prueba.git o descargar el .ZIP desde la interfaz de GitHUB y pegarla en el directorio de tu preferencia. 
+
+2. Es necesario tener Docker instalado en el computador o servidor, puedes descargarlo desde: https://www.docker.com/products/docker-desktop/
+
+3. Accede a la carpeta del proyecto y ejecuta los siguientes comandos desde la terminal:
+
+docker-compose build
+docker-compose up -d
+
+4. Ahora puedes acceder a la aplicación desde http://localhost:8080
